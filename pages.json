@@ -1,0 +1,79 @@
+{
+	"pages": [{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/tim/chatList",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		},
+		{
+			"path": "pages/tim/room",
+			"style": {
+				"navigationBarTitleText": "聊天室",
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tim/createGroup",
+			"style": {
+				"navigationBarTitleText": "发起群聊"
+			}
+		},
+		{
+			"path": "pages/my/userInfo/index",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#e6e6e6",
+		"selectedColor": "#1afa29",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tim/chatList",
+				"iconPath": "static/tabBar/message.png",
+				"selectedIconPath": "static/tabBar/message_active.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/contact/index",
+				"iconPath": "static/tabBar/contact.png",
+				"selectedIconPath": "static/tabBar/contact_active.png",
+				"text": "通讯录"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabBar/my.png",
+				"selectedIconPath": "static/tabBar/my_active.png",
+				"text": "我"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
